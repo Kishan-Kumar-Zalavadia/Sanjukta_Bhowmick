@@ -1,0 +1,16 @@
+<nav [ngClass]="{'dark-mode': darkModeService.darkMode}">
+  <div class="navbar-logo">
+    <a href="">Sanjukta's website</a>
+  </div>
+  <div class="navbar-links">
+    <a routerLink="">Home</a>
+    <a routerLink="projects">Projects</a>
+  </div>
+  <div class="dark-mode-toggle">
+    <label class="switch">
+      <input type="checkbox" (change)="toggleDarkMode()" [checked]="darkModeService.darkMode" />
+      <span class="slider round"></span>
+    </label>
+  </div>
+</nav>
+<router-outlet></router-outlet>
