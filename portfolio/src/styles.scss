@@ -1,6 +1,11 @@
 :root {
+  // Dynamic
   --background-color: white;
   --font-color: rgb(0, 0, 0);
+
+  // Static
+  --light: white;
+  --dark: black;
 }
 
 *{

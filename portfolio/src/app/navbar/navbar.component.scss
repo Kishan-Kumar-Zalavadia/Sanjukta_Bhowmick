@@ -1,13 +1,13 @@
 nav {
   display: flex;
   align-items: center;
-  background-color: #67AD5B;
-  color: black;
+  background-color: #67ad5b;
+  color: var(--dark);
   padding: 10px 20px;
 
   .navbar-logo a {
     text-decoration: none;
-    color: black;
+    color: var(--dark);
     font-size: 20px;
     font-weight: bold;
   }
@@ -16,8 +16,13 @@ nav {
     margin: 0px 20px;
     a {
       text-decoration: none;
-      color: black;
+      color: var(--light);
       margin: 0 10px;
+    }
+
+    a.active {
+      font-weight: bold;
+      color: var(--dark);
     }
   }
 
@@ -50,19 +55,19 @@ nav {
 
         &:before {
           position: absolute;
-          content: '';
+          content: "";
           height: 26px;
           width: 26px;
           left: 4px;
           bottom: 4px;
-          background-color: white;
+          background-color: var(--light);
           border-radius: 50%;
           transition: 0.4s;
         }
       }
 
       input:checked + .slider {
-        background-color: #2196F3;
+        background-color: #2196f3;
 
         &:before {
           transform: translateX(26px);
