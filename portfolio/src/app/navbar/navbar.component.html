@@ -1,4 +1,4 @@
-<nav [ngClass]="{'dark-mode': darkModeService.darkMode}">
+<!-- <nav [ngClass]="{'dark-mode': darkModeService.darkMode}">
   <div class="navbar-logo">
     <a href="">Sanjukta's website</a>
   </div>
@@ -12,5 +12,21 @@
       <span class="slider round"></span>
     </label>
   </div>
+</nav> -->
+<nav id="my-first">
+  <ul>
+    <li class="logotype">
+      <a href="#">Logotype</a>
+    </li>
+    <li class="burger" (click)="toggleMenu()">
+      <i class="material-icons">{{ isMenuOpen ? "close" : "menu" }}</i>
+    </li>
+    <li class="menu" [class.is-open]="isMenuOpen">
+      <a href="#" class="menu-item">Home</a>
+      <a href="#" class="menu-item">About</a>
+      <a href="#" class="menu-item">Sign in / Register</a>
+      <a href="#" class="menu-item">Contact</a>
+    </li>
+  </ul>
 </nav>
 <router-outlet></router-outlet>
