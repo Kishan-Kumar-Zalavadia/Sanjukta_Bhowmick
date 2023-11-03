@@ -87,7 +87,7 @@
   @media (max-width: 768px) {
     flex-direction: column;
     overflow: hidden;
-    padding: 0px 20px;
+    padding: 20px 20px;
     align-items: center;
     .left-half,
     .right-half {
@@ -114,7 +114,6 @@
       p {
         font-size: 14px;
         margin: 5px 0;
-        text-align: left;
       }
 
       .social-media-links a {
@@ -128,6 +127,13 @@
 
       .contact-information {
         font-size: 16px;
+        text-align: left;
+      }
+    }
+    .right-half{
+      p {
+        font-size: 14px;
+        margin: 5px 0;
         text-align: left;
       }
     }
