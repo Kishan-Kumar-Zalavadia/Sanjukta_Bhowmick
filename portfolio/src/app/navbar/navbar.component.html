@@ -9,8 +9,8 @@
     </li>
   
     <li class="menu" [class.is-open]="isMenuOpen">
-      <a routerLink="" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" class="menu-item">Home</a>
-      <a routerLink="projects" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" class="menu-item">Projects</a>
+      <a routerLink="" routerLinkActive="active" (click)="toggleMenu()" [routerLinkActiveOptions]="{ exact: true }" class="menu-item">Home</a>
+      <a routerLink="projects" routerLinkActive="active" (click)="toggleMenu()" [routerLinkActiveOptions]="{ exact: true }" class="menu-item">Projects</a>
       <a>
         <div [ngClass]="{'dark-mode': darkModeService.darkMode}" class="dark-mode-toggle">
           <label class="switch">

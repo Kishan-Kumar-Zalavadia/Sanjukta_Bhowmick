@@ -4,14 +4,12 @@ $menuBreakpoint: 768px;
 nav {
   align-items: center;
   background-color: #67ad5b;
-  color: var(--dark);
   ul {
     margin: 0;
     padding: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   }
 
   .logotype {
@@ -49,7 +47,6 @@ nav {
     }
     a.active {
       font-weight: bold;
-      // color: var(--background-color);
       border-bottom: 2px solid var(--background-color);
     }
 
@@ -67,6 +64,10 @@ nav {
         }
         .dark-mode-toggle{
           padding-left: 10px;
+        }
+        a.active {
+          font-weight: bold;
+          border-bottom: 2px solid var(--background-color);
         }
       }
     }
