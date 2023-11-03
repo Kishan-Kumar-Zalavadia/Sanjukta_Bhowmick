@@ -1,32 +1,28 @@
-<!-- <nav [ngClass]="{'dark-mode': darkModeService.darkMode}">
-  <div class="navbar-logo">
-    <a href="">Sanjukta's website</a>
-  </div>
-  <div class="navbar-links">
-    <a routerLink="" routerLinkActive="active"  [routerLinkActiveOptions]="{ exact: true }">Home</a>
-    <a routerLink="projects" routerLinkActive="active"  [routerLinkActiveOptions]="{ exact: true }">Projects</a>
-  </div>
-  <div class="dark-mode-toggle">
-    <label class="switch">
-      <input type="checkbox" (change)="toggleDarkMode()" [checked]="darkModeService.darkMode" />
-      <span class="slider round"></span>
-    </label>
-  </div>
-</nav> -->
-<nav id="my-first">
+
+<nav [ngClass]="{'dark-mode': darkModeService.darkMode}">
   <ul>
     <li class="logotype">
-      <a href="#">Logotype</a>
+      <a routerLink="">Sanjuktha's website</a>
     </li>
     <li class="burger" (click)="toggleMenu()">
       <i class="material-icons">{{ isMenuOpen ? "close" : "menu" }}</i>
     </li>
+  
     <li class="menu" [class.is-open]="isMenuOpen">
-      <a href="#" class="menu-item">Home</a>
-      <a href="#" class="menu-item">About</a>
-      <a href="#" class="menu-item">Sign in / Register</a>
-      <a href="#" class="menu-item">Contact</a>
+      <a routerLink="" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" class="menu-item">Home</a>
+      <a routerLink="projects" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" class="menu-item">Projects</a>
+      <a>
+        <div [ngClass]="{'dark-mode': darkModeService.darkMode}" class="dark-mode-toggle">
+          <label class="switch">
+            <input type="checkbox" (change)="toggleDarkMode()" [checked]="darkModeService.darkMode" />
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </a>
     </li>
+    
   </ul>
 </nav>
 <router-outlet></router-outlet>
+
+
