@@ -8,5 +8,7 @@ import { PROJECTS } from '../_model/project-data';
   styleUrls: ['./projects.component.scss'],
 })
 export class ProjectsComponent {
+
+  // * Get all the projects
   projects = PROJECTS;
 }

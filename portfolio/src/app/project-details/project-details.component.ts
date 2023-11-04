@@ -17,7 +17,7 @@ export class ProjectDetailsComponent {
   ) {}
 
   ngOnInit() {
-    // Retrieve the project ID from the URL route parameter
+    // * Retrieve the project ID from the URL route parameter
     const projectId = +this.route.snapshot.paramMap.get('id')!;
 
     if (projectId) {

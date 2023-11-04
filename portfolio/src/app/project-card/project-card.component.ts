@@ -12,10 +12,9 @@ export class ProjectCardComponent {
 
   constructor(private router: Router) {}
   
-  clickedProject(id: number): void {
-    console.log('Project: ' + this.project.id);
-  }
 
+  // ****************************************************************
+  // * Navigate to project-details component
   navigateToProjectDetails() {
     this.router.navigate(['/project', this.project.id]);
   }

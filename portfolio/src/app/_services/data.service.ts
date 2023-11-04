@@ -10,7 +10,7 @@ export class DataService {
   private projects: Project[] = PROJECTS;
 
   getProjectById(id: number): Project | undefined {
-    // Find the project by ID, or return undefined if not found
+    // * Find the project by ID, or return undefined if not found
     return this.projects.find((project) => project.id === id);
   }
 }
