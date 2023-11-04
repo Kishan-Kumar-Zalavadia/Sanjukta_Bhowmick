@@ -8,4 +8,8 @@ import { Project } from '../_model/project';
 })
 export class ProjectCardComponent {
   @Input() project!: Project;
+
+  clickedProject(id: number): void {
+    console.log("Project: "+this.project.id)
+  }
 }
