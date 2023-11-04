@@ -21,7 +21,7 @@ export const PROJECTS: Project[] = [
     id: 3,
     image:
       'https://www.liquidplanner.com/wp-content/uploads/2019/04/HiRes-17.jpg',
-    name: 'Project 2',
+    name: 'Project 3',
     date: '2023-02-15',
     description: 'Description for Project 2.',
   },
@@ -29,7 +29,7 @@ export const PROJECTS: Project[] = [
     id: 4,
     image:
       'https://www.liquidplanner.com/wp-content/uploads/2019/04/HiRes-17.jpg',
-    name: 'Project 2',
+    name: 'Project 4',
     date: '2023-02-15',
     description: 'Description for Project 2.',
   },
@@ -37,7 +37,7 @@ export const PROJECTS: Project[] = [
     id: 5,
     image:
       'https://www.liquidplanner.com/wp-content/uploads/2019/04/HiRes-17.jpg',
-    name: 'Project 2',
+    name: 'Project 5',
     date: '2023-02-15',
     description: 'Description for Project 2.',
   }
