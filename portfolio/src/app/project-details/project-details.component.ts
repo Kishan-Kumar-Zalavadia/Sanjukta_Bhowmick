@@ -2,6 +2,7 @@ import { Component, Input } from '@angular/core';
 import { Project } from '../_model/project';
 import { ActivatedRoute } from '@angular/router';
 import { DataService } from '../_services/data.service';
+import { Publication } from '../_model/publication';
 
 @Component({
   selector: 'app-project-details',
@@ -10,6 +11,7 @@ import { DataService } from '../_services/data.service';
 })
 export class ProjectDetailsComponent {
   project: Project | undefined;
+  publications: Publication[] | undefined;
 
   constructor(
     private route: ActivatedRoute,
@@ -24,12 +26,16 @@ export class ProjectDetailsComponent {
       console.log('Project ID:', projectId);
       this.project = this.dataService.getProjectById(projectId);
       if (this.project?.name === undefined) {
-        console.log('Project doesn;t exist');
+        console.log("Project doesn't exist");
       } else {
         console.log(this.project.name);
       }
     } else {
       console.log('Project ID not found in the URL.');
     }
+
+    // * Get publications for this project
+    this.publications = this.dataService.getPublicationsForProject(projectId);
+    
   }
 }

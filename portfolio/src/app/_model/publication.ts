@@ -1,5 +1,5 @@
 export interface Publication {
-  id?: number;
+  id: number;
   title?: string;
   projectID?: number;
   authorIDs: number[];

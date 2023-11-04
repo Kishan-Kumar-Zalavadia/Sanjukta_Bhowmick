@@ -3,4 +3,14 @@
   <h2>{{ project.name }}</h2>
   <p>Date: {{ project.date }}</p>
   <p>Description: {{ project.description }}</p>
+
+  <div *ngIf="publications && publications.length > 0">
+    <h3>Publications:</h3>
+    <ul>
+      <li *ngFor="let publication of publications">{{ publication.title }}</li>
+    </ul>
+  </div>
+  <div *ngIf="!publications || publications.length === 0">
+    <p>No-publications</p>
+  </div>
 </div>

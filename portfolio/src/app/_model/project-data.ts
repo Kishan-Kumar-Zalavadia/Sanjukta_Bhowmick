@@ -24,7 +24,7 @@ export const PROJECTS: Project[] = [
       'https://www.liquidplanner.com/wp-content/uploads/2019/04/HiRes-17.jpg',
     name: 'Project 3',
     description: 'Description for Project 3',
-    publicationIDs: [6],
+    publicationIDs: [5],
   },
   {
     id: 4,
@@ -39,6 +39,6 @@ export const PROJECTS: Project[] = [
       'https://www.liquidplanner.com/wp-content/uploads/2019/04/HiRes-17.jpg',
     name: 'Project 5',
     description: 'Description for Project 5',
-    publicationIDs: [7, 8, 9],
+    publicationIDs: [3,5],
   },
 ];
