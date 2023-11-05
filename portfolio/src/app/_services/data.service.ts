@@ -3,6 +3,7 @@ import { Project } from '../_model/project';
 import { PROJECTS } from '../_model/project-data';
 import { PUBLICATIONS } from '../_model/publication-data';
 import { Publication } from '../_model/publication';
+import { Observable, of } from 'rxjs';
 
 @Injectable({
   providedIn: 'root',
@@ -10,6 +11,7 @@ import { Publication } from '../_model/publication';
 export class DataService {
   constructor() {}
   private projects: Project[] = PROJECTS;
+  private publications: Publication[] = PUBLICATIONS;
 
   // ************************************************************************
   // * Get project ID
@@ -30,5 +32,17 @@ export class DataService {
     }
 
     return []; // Return an empty array if no publications are found
+  }
+
+  // ************************************************************************
+  // * Get the publications by id
+  // getPublications(): Observable<Publication[]> {
+  //   return of(this.publications);
+  // }
+
+  // Get a publication by ID
+  getPublicationById(id: number): Publication | undefined {
+    const publication = this.publications.find((p) => p.id === id);
+    return publication;
   }
 }

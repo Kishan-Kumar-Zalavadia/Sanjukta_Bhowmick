@@ -1,0 +1,5 @@
+<div *ngIf="publication" class="container">
+  <h2>{{ publication.title }}</h2>
+  <p>Project ID: {{ publication.projectID }}</p>
+  <p class="author-ids">Author IDs: {{ publication.authorIDs.join(', ') }}</p>
+</div>

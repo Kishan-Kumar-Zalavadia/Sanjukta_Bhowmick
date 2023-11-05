@@ -9,6 +9,7 @@ import { ProjectsComponent } from './projects/projects.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ProjectCardComponent } from './project-card/project-card.component';
 import { ProjectDetailsComponent } from './project-details/project-details.component';
+import { PublicationComponent } from './publication/publication.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { ProjectDetailsComponent } from './project-details/project-details.compo
     ProjectsComponent,
     ProjectCardComponent,
     ProjectDetailsComponent,
+    PublicationComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FontAwesomeModule],
   providers: [],
