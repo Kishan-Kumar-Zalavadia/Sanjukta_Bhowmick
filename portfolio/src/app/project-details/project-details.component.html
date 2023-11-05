@@ -1,7 +1,7 @@
 <div class="cotainer">
   <div class="project-details" *ngIf="project">
     <h2 class="title">{{ project.name }}</h2>
-    <p class="date">Date: {{ project.date }}</p>
+    <p *ngIf="project.date" class="date">Date: {{ project.date }}</p>
     <img [src]="project.image" alt="Project Image" />
 
     <p class="description">{{ project.description }}</p>
