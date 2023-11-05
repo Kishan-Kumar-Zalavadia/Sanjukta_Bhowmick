@@ -2,16 +2,24 @@
   border: 1px solid #ddd;
   border-radius: 5px;
   padding: 10px;
-  margin: 10px;
+  margin: 0px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
+  height: 250px;
+  width: 220px;
+  // background-color: var(--main-color-hover);
+  // backdrop-filter: blur(0px);
 
-.project-card img {
-  width: 200px;
-  height: 200px;
-  height: auto;
-}
+  h2 {
+    margin: 10px 0;
+  }
 
-.project-card h2 {
-  margin: 10px 0;
+  .image {
+    width: inherit;
+    height: 160px;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
 }

@@ -1,12 +1,13 @@
 :root {
   // Dynamic
-  --background-color: white;
+  --background-color: rgb(231, 231, 231);
   --font-color: rgb(0, 0, 0);
 
   // Static
   --light: white;
   --dark: black;
-  --main-color: #67ad5b
+  --main-color: #67ad5b;
+  --main-color-hover: #2c974b;
 }
 
 *{
@@ -17,3 +18,51 @@
   }
   font-family: sans-serif;
 }
+
+
+// ****************************************************************
+// * Button styles
+.button {
+  appearance: none;
+  // background-color: #2ea44f;
+  background-color: var(--main-color);
+  // border: 1px solid rgba(27, 31, 35, .15);
+  border: 1px solid var(--background-color);
+  border-radius: 6px;
+  box-shadow: var(--background-color) 0 1px 0;
+  box-sizing: border-box;
+  // color: #fff;
+  color: var(--background-color);
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 6px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.button:focus:not(:focus-visible):not(.focus-visible) {
+  box-shadow: none;
+  outline: none;
+}
+
+.button:hover {
+  background-color: var(--main-color-hover);
+}
+
+.button:focus {
+  box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+  outline: none;
+}
+
+
+// ****************************************************************
