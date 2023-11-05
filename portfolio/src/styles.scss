@@ -17,12 +17,17 @@
     text-decoration: none
   }
   font-family: sans-serif;
+
+  li{
+    text-decoration: none;
+  }
 }
 
 
 // ****************************************************************
 // * Button styles
 .button {
+  width: fit-content;
   appearance: none;
   // background-color: #2ea44f;
   background-color: var(--main-color);

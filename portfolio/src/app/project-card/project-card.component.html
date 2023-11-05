@@ -1,8 +1,11 @@
 <div class="project-card">
   <div class="image">
-      <img [src]="project.image" alt="Project Image" />
+    <img [src]="project.image" alt="Project Image" />
   </div>
-  <h2>{{ project.name }}</h2>
-  <button (click)="navigateToProjectDetails()" class="button">View Details</button>
+  <div class="content">
+    <h2>{{ project.name }}</h2>
+    <button (click)="navigateToProjectDetails()" class="button">
+      View Details
+    </button>
+  </div>
 </div>
-
