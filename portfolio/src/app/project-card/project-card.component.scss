@@ -2,10 +2,10 @@
   border: 1px solid #ddd;
   border-radius: 5px;
   padding: 10px;
-  margin: 0;
+  margin: 20px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   height: 300px;
-  width: 250px;
+  width: 300px;
   display: flex;
   flex-direction: column;
   justify-content: space-between; /* Content will stick to the bottom */
@@ -13,6 +13,7 @@
 
 h2 {
   margin: 10px 0;
+  font-size: 20px;
 }
 
 .content {
@@ -31,3 +32,29 @@ h2 {
     max-height: 100%;
   }
 }
+
+@media (max-width: 990px) {
+  .project-card{
+    width: calc(100vw - 600px);
+   h2{
+    font-size: 18px;
+   } 
+  }
+}
+
+@media (max-width: 840px) {
+  .project-card{
+    height: auto;
+    width: calc(100vw - 100px);
+
+    img{
+      max-width: auto;
+    }
+
+    .content{
+      h2{
+        font-size: 18px;
+      }
+    }
+  }
+} 

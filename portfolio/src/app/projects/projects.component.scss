@@ -1,11 +1,23 @@
-*{
-    padding: 20px 20px;
-    background-color: var(--background-color);
-    color: var(--font-color);
+* {
+  
 }
 
-.project-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+.container {
+  padding: 20px 20px;
+  background-color: var(--background-color);
+  color: var(--font-color);
+  .project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .container{
+    margin: 0;
+  }
+  app-project-card{
+    padding: 0;
+  }
 }

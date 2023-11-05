@@ -68,6 +68,11 @@
   box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
   outline: none;
 }
-
+@media (max-width: 680px) {
+  .button {
+    font-size: 12px; /* Adjust the font size for smaller screens */
+    padding: 4px 12px; /* Adjust the padding for smaller screens */
+  }
+}
 
 // ****************************************************************

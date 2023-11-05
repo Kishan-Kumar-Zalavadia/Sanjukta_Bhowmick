@@ -3,5 +3,5 @@ export interface Publication {
   title?: string;
   projectID?: number;
   pdf?: string;
-  authorIDs: number[];
+  authorIDs?: number[];
 }

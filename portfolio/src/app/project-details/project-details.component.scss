@@ -44,7 +44,7 @@
     ul {
       list-style: none;
       padding: 0;
-      .publication-list .publication-list-card{
+      .publication-list .publication-list-card {
         // background-color: pink;
         border-bottom: 1px solid var(--font-color);
         padding: 10px 0;
@@ -70,5 +70,11 @@
     font-size: 18px;
     color: var(--font-color);
     margin: 20px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .project-details {
+    width: calc(100% - 10vw);
   }
 }
