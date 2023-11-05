@@ -1,10 +1,11 @@
 <div class="project-details" *ngIf="project">
+  <h2 class="title">{{ project.name }}</h2>
+  <p class="date">Date: {{ project.date }}</p>
   <img [src]="project.image" alt="Project Image" />
-  <h2>{{ project.name }}</h2>
-  <p>Date: {{ project.date }}</p>
+
   <p>Description: {{ project.description }}</p>
 
-  <div *ngIf="publications && publications.length > 0">
+  <div class="publications" *ngIf="publications && publications.length > 0">
     <h3>Publications:</h3>
     <ul>
       <li *ngFor="let publication of publications">{{ publication.title }}</li>
