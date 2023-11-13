@@ -10,6 +10,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ProjectCardComponent } from './project-card/project-card.component';
 import { ProjectDetailsComponent } from './project-details/project-details.component';
 import { PublicationComponent } from './publication/publication.component';
+import { PersonCardComponent } from './person-card/person-card.component';
+import { PeopleComponent } from './people/people.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +22,8 @@ import { PublicationComponent } from './publication/publication.component';
     ProjectCardComponent,
     ProjectDetailsComponent,
     PublicationComponent,
+    PersonCardComponent,
+    PeopleComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FontAwesomeModule],
   providers: [],

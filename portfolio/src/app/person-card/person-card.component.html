@@ -1,0 +1,11 @@
+<div class="project-card">
+  <div class="image">
+    <img [src]="person.image" alt="Person Image" />
+  </div>
+  <div class="content">
+    <h2>{{ person.name }}</h2>
+    <button *ngIf="person.url" class="button">
+      View Details
+    </button>
+  </div>
+</div>
