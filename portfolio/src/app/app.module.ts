@@ -3,15 +3,15 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './navbar/navbar.component';
-import { HomeComponent } from './home/home.component';
-import { ProjectsComponent } from './projects/projects.component';
+import { NavbarComponent } from './_components/navbar/navbar.component';
+import { HomeComponent } from './_components/home/home.component';
+import { ProjectsComponent } from './_components/projects/projects.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { ProjectCardComponent } from './project-card/project-card.component';
-import { ProjectDetailsComponent } from './project-details/project-details.component';
-import { PublicationComponent } from './publication/publication.component';
-import { PersonCardComponent } from './person-card/person-card.component';
-import { PeopleComponent } from './people/people.component';
+import { ProjectCardComponent } from './_components/project-card/project-card.component';
+import { ProjectDetailsComponent } from './_components/project-details/project-details.component';
+import { PublicationComponent } from './_components/publication/publication.component';
+import { PersonCardComponent } from './_components/person-card/person-card.component';
+import { PeopleComponent } from './_components/people/people.component';
 
 @NgModule({
   declarations: [
@@ -29,4 +29,4 @@ import { PeopleComponent } from './people/people.component';
   providers: [],
   bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

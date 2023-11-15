@@ -1,8 +1,8 @@
 import { Component, Input } from '@angular/core';
-import { Project } from '../_model/project';
+import { Project } from '../../_model/project';
 import { ActivatedRoute } from '@angular/router';
-import { DataService } from '../_services/data.service';
-import { Publication } from '../_model/publication';
+import { DataService } from '../../_services/data.service';
+import { Publication } from '../../_model/publication';
 
 @Component({
   selector: 'app-project-details',
@@ -36,6 +36,5 @@ export class ProjectDetailsComponent {
 
     // * Get publications for this project
     this.publications = this.dataService.getPublicationsForProject(projectId);
-    
   }
 }

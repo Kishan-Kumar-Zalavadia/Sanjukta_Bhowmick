@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { Project } from '../_model/project';
+import { Project } from '../../_model/project';
 import { Router } from '@angular/router';
 
 @Component({
@@ -11,7 +11,6 @@ export class ProjectCardComponent {
   @Input() project!: Project;
 
   constructor(private router: Router) {}
-  
 
   // ****************************************************************
   // * Navigate to project-details component

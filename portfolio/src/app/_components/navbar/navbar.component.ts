@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { DarkModeService } from '../_services/dark-mode.service';
+import { DarkModeService } from '../../_services/dark-mode.service';
 import { Router } from '@angular/router';
 
 @Component({
@@ -22,5 +22,4 @@ export class NavbarComponent {
   toggleMenu(): void {
     this.isMenuOpen = !this.isMenuOpen;
   }
-
 }

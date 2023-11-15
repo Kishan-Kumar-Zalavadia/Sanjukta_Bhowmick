@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { Publication } from '../_model/publication';
+import { Publication } from '../../_model/publication';
 import { ActivatedRoute } from '@angular/router';
-import { DataService } from '../_services/data.service';
+import { DataService } from '../../_services/data.service';
 
 @Component({
   selector: 'app-publication',
