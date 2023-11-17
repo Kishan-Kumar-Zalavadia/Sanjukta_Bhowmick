@@ -1,0 +1,73 @@
+// /* src/app/announcement-list/announcement-list.component.css */
+
+// .announcement-list {
+//   display: flex;
+//   flex-wrap: wrap;
+//   gap: 20px;
+// }
+
+// .announcement-card {
+//   border: 1px solid #ddd;
+//   padding: 15px;
+//   border-radius: 8px;
+//   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+//   transition: transform 0.2s;
+// }
+
+// .announcement-card:hover {
+//   transform: scale(1.05);
+// }
+
+// img {
+//   max-width: 100%;
+//   height: auto;
+//   border-radius: 8px;
+// }
+
+// .date {
+//   font-style: italic;
+//   color: #777;
+// }
+
+
+.announcement-list {
+  background-color: var(--background-color);
+  color: var(--font-color);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  min-height: 100vh;
+
+  .announcement-card {
+    border: 1px solid var(--font-color);
+    padding: 15px;
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+
+    h2 {
+      font-size: 1.5em;
+      margin-bottom: 10px;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      max-height: 150px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      margin-bottom: 10px;
+    }
+
+    .date {
+      color: #555;
+    }
+
+    &:hover {
+      // background-color: var(--font-color);
+      cursor: pointer;
+    }
+  }
+}

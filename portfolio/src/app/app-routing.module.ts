@@ -6,6 +6,8 @@ import { ProjectsComponent } from './_components/projects/projects.component';
 import { ProjectDetailsComponent } from './_components/project-details/project-details.component';
 import { PublicationComponent } from './_components/publication/publication.component';
 import { PeopleComponent } from './_components/people/people.component';
+import { AnnouncementsComponent } from './_components/announcements/announcements.component';
+import { AnnouncementDetailsComponent } from './_components/announcement-details/announcement-details.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -13,6 +15,8 @@ const routes: Routes = [
   { path: 'project/:id', component: ProjectDetailsComponent },
   { path: 'publication/:id', component: PublicationComponent },
   { path: 'people', component: PeopleComponent },
+  { path: 'annoncements', component: AnnouncementsComponent },
+  { path: 'annoncement/:id', component: AnnouncementDetailsComponent },
 ];
 
 @NgModule({

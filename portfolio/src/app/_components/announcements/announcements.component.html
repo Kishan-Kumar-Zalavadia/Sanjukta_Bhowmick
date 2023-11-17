@@ -1,0 +1,8 @@
+<div class="announcement-list">
+  <div *ngFor="let announcement of announcements" class="announcement-card" (click)="onAnnouncementClick(announcement.id)">
+    <h2>{{ announcement.title }}</h2>
+    <img [src]="announcement.imageUrl" alt="{{ announcement.title }} Image" />
+    <p>{{ announcement.content }}</p>
+    <p class="date">Date: {{ announcement.date | date }}</p>
+  </div>
+</div>

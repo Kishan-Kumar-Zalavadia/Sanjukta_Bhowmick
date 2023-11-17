@@ -12,6 +12,8 @@ import { ProjectDetailsComponent } from './_components/project-details/project-d
 import { PublicationComponent } from './_components/publication/publication.component';
 import { PersonCardComponent } from './_components/person-card/person-card.component';
 import { PeopleComponent } from './_components/people/people.component';
+import { AnnouncementsComponent } from './_components/announcements/announcements.component';
+import { AnnouncementDetailsComponent } from './_components/announcement-details/announcement-details.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +26,8 @@ import { PeopleComponent } from './_components/people/people.component';
     PublicationComponent,
     PersonCardComponent,
     PeopleComponent,
+    AnnouncementsComponent,
+    AnnouncementDetailsComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FontAwesomeModule],
   providers: [],
