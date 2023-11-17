@@ -7,7 +7,7 @@ export const announcements: Announcement[] = [
     id: 1,
     title: 'Important Event',
     content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    imageUrl: '../../assets/images/ali_khan.jpeg',
+    // imageUrl: '../../assets/images/ali_khan.jpeg',
     date: new Date('2023-01-01'),
   },
   {
