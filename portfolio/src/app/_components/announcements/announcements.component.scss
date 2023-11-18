@@ -35,6 +35,10 @@
 
   p {
     margin-bottom: 10px;
+    .clickable-text {
+        color: var(--main-color);
+        cursor: pointer;
+      }
   }
 
   .date {
