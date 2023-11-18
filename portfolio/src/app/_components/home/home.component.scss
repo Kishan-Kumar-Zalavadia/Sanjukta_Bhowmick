@@ -1,141 +1,147 @@
-.profile-container {
-  display: flex;
-  align-items: flex-start;
-  // text-align: center;
+.main-container {
+  min-height: 100vh;
   color: var(--font-color);
   background-color: var(--background-color);
-  min-height: 100vh;
 
-  .left-half {
-    flex: 1.5;
-    text-align: center;
+  .profile-container {
+    display: flex;
+    align-items: flex-start;
+    // text-align: center;
 
-    .left-container {
-      padding: 70px 40px;
-    }
-
-    .profile-image img {
-      width: 200px;
-      height: 200px;
-      object-fit: cover;
-      border-radius: 50%;
-    }
-
-    h2 {
-      font-size: 25px;
-      margin: 10px 0;
-    }
-
-    p {
-      font-size: 20px;
-      margin: 5px 0;
-      color: gray;
-    }
-
-    a {
-      color: var(--main-color);
-    }
-
-    .social-media-links {
-      margin: 10px;
-      a {
-        text-decoration: none;
-        font-size: 24px;
-        margin: 0 10px;
-      }
-    }
-  }
-
-  .right-half {
-    flex: 2;
-    text-align: left;
-    padding: 20px;
-
-    .description {
-      font-size: 18px;
-      margin: 20px 0;
-    }
-
-    .contact-information {
-      font-size: 16px;
-      margin: 20px 0px;
-
-      .contact {
-        padding-left: 20px;
-      }
-
-      .contact-heading {
-        margin: 10px 0px;
-      }
-
-      ul {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-        ul {
-          padding-left: 20px;
-        }
-        li {
-          margin-bottom: 5px;
-          color: var(--main-color);
-        }
-      }
-    }
-  }
-
-  // Media Query for smaller screens (e.g., mobile)
-  @media (max-width: 768px) {
-    flex-direction: column;
-    overflow: hidden;
-    padding: 20px 20px;
-    align-items: center;
-    .left-half,
-    .right-half {
-      flex: 1;
+    .left-half {
+      flex: 1.5;
       text-align: center;
-      padding: 0;
-      width: 100%;
 
       .left-container {
-        padding: 0px 0px;
+        padding: 70px 40px;
       }
 
-
       .profile-image img {
-        width: 150px;
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
         border-radius: 50%;
       }
 
       h2 {
-        font-size: 20px;
+        font-size: 25px;
         margin: 10px 0;
       }
 
       p {
-        font-size: 14px;
+        font-size: 20px;
         margin: 5px 0;
+        color: gray;
       }
 
-      .social-media-links a {
-        font-size: 20px;
+      a {
+        color: var(--main-color);
       }
+
+      .social-media-links {
+        margin: 10px;
+        a {
+          text-decoration: none;
+          font-size: 24px;
+          margin: 0 10px;
+        }
+      }
+    }
+
+    .right-half {
+      flex: 2;
+      text-align: left;
+      padding: 20px;
 
       .description {
-        font-size: 16px;
+        font-size: 18px;
         margin: 20px 0;
       }
 
       .contact-information {
         font-size: 16px;
-        text-align: left;
+        margin: 20px 0px;
+
+        .contact {
+          padding-left: 20px;
+        }
+
+        .contact-heading {
+          margin: 10px 0px;
+        }
+
+        ul {
+          list-style: none;
+          padding: 0;
+          margin: 0;
+          ul {
+            padding-left: 20px;
+          }
+          li {
+            margin-bottom: 5px;
+            color: var(--main-color);
+          }
+        }
       }
     }
-    .right-half{
-      p {
-        font-size: 14px;
-        margin: 5px 0;
-        text-align: left;
+
+    // Media Query for smaller screens (e.g., mobile)
+    @media (max-width: 768px) {
+      flex-direction: column;
+      overflow: hidden;
+      padding: 20px 20px;
+      align-items: center;
+      .left-half,
+      .right-half {
+        flex: 1;
+        text-align: center;
+        padding: 0;
+        width: 100%;
+
+        .left-container {
+          padding: 0px 0px;
+        }
+
+        .profile-image img {
+          width: 150px;
+          border-radius: 50%;
+        }
+
+        h2 {
+          font-size: 20px;
+          margin: 10px 0;
+        }
+
+        p {
+          font-size: 14px;
+          margin: 5px 0;
+        }
+
+        .social-media-links a {
+          font-size: 20px;
+        }
+
+        .description {
+          font-size: 16px;
+          margin: 20px 0;
+        }
+
+        .contact-information {
+          font-size: 16px;
+          text-align: left;
+        }
+      }
+      .right-half {
+        p {
+          font-size: 14px;
+          margin: 5px 0;
+          text-align: left;
+        }
       }
     }
+  }
+
+  .announcement{
+   padding: 10px 20px; 
   }
 }

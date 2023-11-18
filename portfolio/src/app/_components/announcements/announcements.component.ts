@@ -1,4 +1,4 @@
-import { Component, HostListener } from '@angular/core';
+import { Component, HostListener, Input } from '@angular/core';
 import { Router } from '@angular/router';
 import { Announcement } from 'src/app/_model/announcement';
 import { announcements } from 'src/app/_model/announcement-data';
@@ -10,6 +10,8 @@ import { AnnouncementService } from 'src/app/_services/announcement.service';
   styleUrls: ['./announcements.component.scss'],
 })
 export class AnnouncementsComponent {
+  @Input() homeAnnouncements: Announcement[] = [];
+
   announcements: Announcement[] = [];
   sliceLength: number = 400;
 
@@ -17,7 +19,11 @@ export class AnnouncementsComponent {
     private router: Router,
     private announcementService: AnnouncementService
   ) {
-    this.updateSliceLength(window.innerWidth);
+    this.announcements = this.announcementService.getAllAnnouncements();
+  }
+
+  ngOnInit(): void {
+    this.getAnnouncements();
   }
 
   @HostListener('window:resize', ['$event'])
@@ -29,10 +35,6 @@ export class AnnouncementsComponent {
   updateSliceLength(windowWidth: number) {
     // Adjust slice length based on window width
     this.sliceLength = windowWidth < 768 ? 150 : 400;
-  }
-
-  ngOnInit(): void {
-    this.getAnnouncements();
   }
 
   getAnnouncements(): void {

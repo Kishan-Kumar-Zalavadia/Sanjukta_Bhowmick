@@ -11,6 +11,7 @@ export const announcements: Announcement[] = [
     imageUrl: '../../assets/images/ali_khan.jpeg',
     linkUrl:
       'https://research.unt.edu/news/college-engineering-doctoral-student-earns-nsf-graduate-research-fellowship',
+    onHomePage: true,
   },
   // Add more announcements here
 ];

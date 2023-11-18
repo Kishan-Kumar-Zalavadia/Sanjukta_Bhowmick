@@ -22,5 +22,15 @@ export class AnnouncementService {
   setSelectedAnnouncement(announcement: Announcement): void {
     this._selectedAnnouncement = announcement;
   }
-  
+
+  // * ------------------------------------------------------------------------------------------------
+  // * Get all the announcements
+  getAllAnnouncements(): Announcement[] {
+    return announcements;
+  }
+  // * ------------------------------------------------------------------------------------------------
+  // * Get only the announcements to be showen on home page
+  getHomeAnnouncements(): Announcement[] {
+    return announcements.filter((a) => a.onHomePage);
+  }
 }

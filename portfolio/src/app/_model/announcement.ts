@@ -7,5 +7,6 @@ export interface Announcement {
   imageUrl?: string;
   date?: Date;
   linkUrl?: string;
+  onHomePage?: boolean;
 }
 
