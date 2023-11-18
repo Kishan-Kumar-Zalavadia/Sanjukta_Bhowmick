@@ -3,9 +3,9 @@
 export interface Announcement {
   id: number;
   title: string;
-  content: string;
+  content?: string;
   imageUrl?: string;
-  date: Date;
-  linkUrl: string;
+  date?: Date;
+  linkUrl?: string;
 }
 

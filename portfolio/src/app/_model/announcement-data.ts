@@ -5,20 +5,10 @@ import { Announcement } from "./announcement";
 export const announcements: Announcement[] = [
   {
     id: 1,
-    title: 'Important Event',
-    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    // imageUrl: '../../assets/images/ali_khan.jpeg',
-    date: new Date('2023-01-01'),
-    linkUrl:
-      'https://research.unt.edu/news/college-engineering-doctoral-student-earns-nsf-graduate-research-fellowship',
-  },
-  {
-    id: 2,
-    title: 'New Project Announcement',
+    title: 'NSF GRADUATE RESEARCH FELLOWSHIP',
     content:
-      'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.',
+      'Ali Khan, a second-year Ph.D. student in computer science and engineering, has earned a Graduate Research Fellowship from the National Science Foundation, one of the most competitive research awards in the U.S. for a graduate student. It will fund his research on machine learning, high performance computing and graph theory. Read more about Khan, who first learned to program from a Liberty BASIC for Dummies book when he was 11 years old. ',
     imageUrl: '../../assets/images/ali_khan.jpeg',
-    date: new Date('2023-02-15'),
     linkUrl:
       'https://research.unt.edu/news/college-engineering-doctoral-student-earns-nsf-graduate-research-fellowship',
   },

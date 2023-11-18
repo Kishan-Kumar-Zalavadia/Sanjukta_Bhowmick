@@ -3,8 +3,8 @@
     <img *ngIf="announcement.imageUrl" [src]="announcement.imageUrl" alt="{{ announcement.title }} Image" />
     <div class="content">
       <h2>{{ announcement.title }}</h2>
-      <p>{{ announcement.content }}</p>
-      <p class="date">Date: {{ announcement.date | date }}</p>
+      <p *ngIf="announcement.content">{{ announcement.content | slice:0:sliceLength }}{{ announcement.content.length > sliceLength ? '...' : '' }}</p>
+      <p *ngIf="announcement.date" class="date">Date: {{ announcement.date | date }}</p>
     </div>
   </div>
 </div>
