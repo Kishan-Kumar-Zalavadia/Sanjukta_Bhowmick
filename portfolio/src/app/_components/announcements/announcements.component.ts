@@ -24,6 +24,26 @@ export class AnnouncementsComponent {
     this.announcements = announcements;
   }
 
+  // * ------------------------------------------------------------------------------------------------
+  // * Moves to specific announcement created by me
+
+  // onAnnouncementClick(announcementId: number): void {
+  //   const selectedAnnouncement = this.announcementService.announcements.find(
+  //     (announcement) => announcement.id === announcementId
+  //   );
+
+  //   if (!selectedAnnouncement) {
+  //     console.error(`Announcement with ID ${announcementId} not found.`);
+  //     // You may want to add some user feedback or error handling here.
+  //     return;
+  //   }
+
+  //   this.announcementService.setSelectedAnnouncement(selectedAnnouncement);
+  //   this.router.navigate(['/annoncement', announcementId]);
+  // }
+
+  // * ------------------------------------------------------------------------------------------------
+  // * Moves to specific announcement in google
   onAnnouncementClick(announcementId: number): void {
     const selectedAnnouncement = this.announcementService.announcements.find(
       (announcement) => announcement.id === announcementId
@@ -34,8 +54,6 @@ export class AnnouncementsComponent {
       // You may want to add some user feedback or error handling here.
       return;
     }
-
-    this.announcementService.setSelectedAnnouncement(selectedAnnouncement);
-    this.router.navigate(['/annoncement', announcementId]);
+    window.open(selectedAnnouncement.linkUrl, '_blank');
   }
 }

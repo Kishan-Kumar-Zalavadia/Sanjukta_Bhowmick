@@ -6,5 +6,6 @@ export interface Announcement {
   content: string;
   imageUrl?: string;
   date: Date;
+  linkUrl: string;
 }
 
