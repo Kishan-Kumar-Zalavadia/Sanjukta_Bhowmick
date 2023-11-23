@@ -5,7 +5,7 @@
       <h2>{{ announcement.title }}</h2>
       <p *ngIf="announcement.content">
         {{ announcement.content | slice:0:sliceLength }}
-        <span class="clickable-text" (click)="onAnnouncementClick(announcement.id)">...(click to know more)</span>
+        <span class="clickable-text">...(click to know more)</span>
       </p>
       <p *ngIf="announcement.date" class="date">Date: {{ announcement.date | date }}</p>
     </div>
