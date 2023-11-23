@@ -1,10 +1,16 @@
 .announcement-list {
-  background-color: var(--background-color);
   color: var(--font-color);
   flex-wrap: wrap;
   justify-content: space-around;
   min-height: 100vh;
   padding: 10px;
+
+  // * Backgound Image
+  background-image: var(--bg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
 }
 
 .announcement-card {

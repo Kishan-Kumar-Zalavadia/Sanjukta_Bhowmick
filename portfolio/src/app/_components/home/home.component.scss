@@ -1,7 +1,12 @@
 .main-container {
   min-height: 100vh;
   color: var(--font-color);
-  background-color: var(--background-color);
+
+  // * Backgound Image
+  background-image: var(--bg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 
   .profile-container {
     display: flex;
@@ -141,7 +146,7 @@
     }
   }
 
-  .announcement{
-   padding: 10px 20px; 
+  .announcement {
+    padding: 10px 20px;
   }
 }
