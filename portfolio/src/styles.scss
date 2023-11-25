@@ -80,4 +80,20 @@
   }
 }
 
+// * Glass effect for card
+.glass-effect {
+  // * Glass effect
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+  background: rgba(255,255,255,0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+
+  transition: 0.3s ease;
+  &:hover{
+    transform: scale(1.02);
+  }
+}
+
+
 // ****************************************************************

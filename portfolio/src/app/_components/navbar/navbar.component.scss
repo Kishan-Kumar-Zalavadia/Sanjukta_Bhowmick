@@ -53,14 +53,20 @@ nav {
     @media (max-width: $menuBreakpoint) {
       display: none;
       &.is-open {
+        z-index: 99;
         display: block;
         position: absolute;
         top: #{$menuHeight + 2};
-        background: #67ad5b;
+        background: var(--main-color);
         width: 100%;
         margin: 0;
         .menu-item {
           border-bottom: 1px solid var(--font-color);
+          transition: all 0.3s ease;
+          &:hover{
+            border-bottom: 1px solid var(--background-color);
+            color: var(--background-color);
+          }
         }
         .dark-mode-toggle{
           padding-left: 10px;
@@ -68,6 +74,7 @@ nav {
         a.active {
           font-weight: bold;
           border-bottom: 2px solid var(--background-color);
+          color: var(--background-color);
         }
       }
     }
