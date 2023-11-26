@@ -1,7 +1,19 @@
 :root {
   // Dynamic
-  --background-color: rgb(231, 231, 231);
-  --font-color: rgb(0, 0, 0);
+  // --background-color: rgb(218, 218, 218);
+  // --font-color: rgb(0, 0, 0);
+
+  // --background-color-dark: rgb(0, 0, 0);
+  // --font-color-dark: rgb(218, 218, 218);
+
+  --background-color: white;
+  --font-color: black;
+
+  --background-color-light: white;
+  --font-color-light: black;
+
+  --background-color-dark: black;
+  --font-color-dark: white;
 
   // * Backgound Image
   --bg: radial-gradient(
@@ -85,7 +97,7 @@
     linear-gradient(92deg, hsl(214, 0%, 11%), hsl(214, 0%, 11%));
 
   // Static
-  --light: rgb(232, 232, 232);
+  --light: rgb(218, 218, 218);
   --dark: black;
   --main-color: #67ad5b;
   --main-color-hover: #2c974b;

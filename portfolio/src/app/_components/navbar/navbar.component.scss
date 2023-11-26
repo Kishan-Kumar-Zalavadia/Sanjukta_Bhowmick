@@ -3,13 +3,13 @@ $menuBreakpoint: 768px;
 
 nav {
   align-items: center;
-  background-color: var(--main-color);
   ul {
     margin: 0;
     padding: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: var(--main-color);
   }
 
   .logotype {
@@ -42,7 +42,6 @@ nav {
     margin: 0px 20px;
     a {
       text-decoration: none;
-      color: var(--light);
       margin: 0 10px;
     }
     a.active {
