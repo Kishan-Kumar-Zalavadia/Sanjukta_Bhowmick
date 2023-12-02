@@ -8,6 +8,7 @@ import { PublicationComponent } from './_components/publication/publication.comp
 import { PeopleComponent } from './_components/people/people.component';
 import { AnnouncementsComponent } from './_components/announcements/announcements.component';
 import { AnnouncementDetailsComponent } from './_components/announcement-details/announcement-details.component';
+import { TestComponent } from './_components/test/test/test.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -17,6 +18,7 @@ const routes: Routes = [
   { path: 'people', component: PeopleComponent },
   { path: 'annoncements', component: AnnouncementsComponent },
   { path: 'annoncement/:id', component: AnnouncementDetailsComponent },
+  {path: 'test', component: TestComponent}
 ];
 
 @NgModule({

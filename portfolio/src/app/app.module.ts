@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { CarouselModule } from 'ngx-owl-carousel-o';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -14,6 +15,8 @@ import { PersonCardComponent } from './_components/person-card/person-card.compo
 import { PeopleComponent } from './_components/people/people.component';
 import { AnnouncementsComponent } from './_components/announcements/announcements.component';
 import { AnnouncementDetailsComponent } from './_components/announcement-details/announcement-details.component';
+import { TestComponent } from './_components/test/test/test.component';
+import { TestCardComponent } from './_components/test/test-card/test-card.component';
 
 @NgModule({
   declarations: [
@@ -28,8 +31,10 @@ import { AnnouncementDetailsComponent } from './_components/announcement-details
     PeopleComponent,
     AnnouncementsComponent,
     AnnouncementDetailsComponent,
+    TestComponent,
+    TestCardComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, FontAwesomeModule],
+  imports: [BrowserModule, AppRoutingModule, FontAwesomeModule, CarouselModule],
   providers: [],
   bootstrap: [AppComponent],
 })
