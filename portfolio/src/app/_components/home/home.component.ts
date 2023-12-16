@@ -5,6 +5,7 @@ import { faFile } from '@fortawesome/free-regular-svg-icons';
 import { Announcement } from 'src/app/_model/announcement';
 import { announcements } from 'src/app/_DATA/announcement-data';
 import { AnnouncementService } from 'src/app/_services/announcement.service';
+import { DETAILS } from 'src/app/_DATA/details-data';
 
 @Component({
   selector: 'app-home',
@@ -16,8 +17,7 @@ export class HomeComponent {
   faFile = faFile;
   faGoogle = faGoogle;
 
-  messageForAnnouncements: string = 'Hello from HomeComponent!';
-
+  details = DETAILS;
   homeAnnouncements: Announcement[];
 
   constructor(private announcementService: AnnouncementService) {

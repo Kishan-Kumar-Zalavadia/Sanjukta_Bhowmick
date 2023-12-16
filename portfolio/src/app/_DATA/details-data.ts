@@ -1,7 +1,7 @@
 import { Details } from '../_model/details';
 // details.data.ts
 
-export const sampleDetails: Details = {
+export const DETAILS: Details = {
   //* Title
   profession_title: 'Research Associate Professor',
 
@@ -9,15 +9,15 @@ export const sampleDetails: Details = {
   work_location:
     'Department of Computer Science and Engineering, University of North Texas',
 
+  //* Work Place webiste link
+  work_place_link: 'https://computerscience.engineering.unt.edu/',
+
   //* GitHub link
   github_link: 'https://github.com/SanjuktaBhowmick/ESSENS',
 
   //* Google Scholar link
   google_scholar_link:
     'https://scholar.google.com/citations?user=MegF9mYAAAAJ&hl=en',
-
-  //* CV link
-  cv_link: 'http://localhost:4200/assets/cv.pdf',
 
   //* Description Paragraph-1
   description_paragraph_1:

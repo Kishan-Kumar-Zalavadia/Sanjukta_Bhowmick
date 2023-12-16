@@ -2,10 +2,10 @@ export interface Details {
     
   profession_title?: string;
   work_location?: string;
+  work_place_link?: string;
 
   github_link?: string;
   google_scholar_link?: string;
-  cv_link?: string;
 
   description_paragraph_1?: string;
   description_paragraph_2?: string;
