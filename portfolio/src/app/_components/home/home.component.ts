@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import { faGithub} from '@fortawesome/free-brands-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faGoogle } from '@fortawesome/free-brands-svg-icons';
 import { faFile } from '@fortawesome/free-regular-svg-icons';
 import { Announcement } from 'src/app/_model/announcement';
-import { announcements } from 'src/app/_model/announcement-data';
+import { announcements } from 'src/app/_DATA/announcement-data';
 import { AnnouncementService } from 'src/app/_services/announcement.service';
 
 @Component({

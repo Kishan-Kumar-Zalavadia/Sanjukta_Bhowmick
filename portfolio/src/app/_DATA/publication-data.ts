@@ -1,4 +1,4 @@
-import { Publication } from './publication';
+import { Publication } from '../_model/publication';
 
 export const PUBLICATIONS: Publication[] = [
   {
@@ -114,10 +114,9 @@ export const PUBLICATIONS: Publication[] = [
   },
 ];
 
-
-  // {
-  //   id: ,
-  //   title: '',
-  //   pdf: '',
-  //   projectID: ,
-  // },
+// {
+//   id: ,
+//   title: '',
+//   pdf: '',
+//   projectID: ,
+// },

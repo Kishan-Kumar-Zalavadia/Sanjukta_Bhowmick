@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Project } from '../_model/project';
-import { PROJECTS } from '../_model/project-data';
-import { PUBLICATIONS } from '../_model/publication-data';
+import { PROJECTS } from '../_DATA/project-data';
+import { PUBLICATIONS } from '../_DATA/publication-data';
 import { Publication } from '../_model/publication';
 import { Observable, of } from 'rxjs';
 

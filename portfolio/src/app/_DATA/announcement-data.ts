@@ -1,6 +1,6 @@
 // announcement-data.ts
 
-import { Announcement } from "./announcement";
+import { Announcement } from '../_model/announcement';
 
 export const announcements: Announcement[] = [
   {

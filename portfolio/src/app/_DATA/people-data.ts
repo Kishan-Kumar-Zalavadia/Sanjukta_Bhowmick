@@ -1,4 +1,4 @@
-import { People } from './people';
+import { People } from '../_model/people';
 
 export const PEOPLE: People[] = [
   {
@@ -13,7 +13,8 @@ export const PEOPLE: People[] = [
     name: 'Person 2',
     image: '../../assets/images/profile.jpeg',
     url: 'https://google.com/',
-    details: 'lorem ipsum dolor sit amet, consectetur adip lorem, sed diam lorem, sed diam',
+    details:
+      'lorem ipsum dolor sit amet, consectetur adip lorem, sed diam lorem, sed diam',
   },
   {
     id: 3,

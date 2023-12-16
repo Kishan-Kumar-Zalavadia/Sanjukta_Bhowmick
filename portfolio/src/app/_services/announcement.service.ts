@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { announcements } from '../_model/announcement-data';
+import { announcements } from '../_DATA/announcement-data';
 import { Announcement } from '../_model/announcement';
 
 @Injectable({
