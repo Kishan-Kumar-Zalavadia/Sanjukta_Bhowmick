@@ -2,6 +2,13 @@
   padding: 20px 20px;
   background-color: var(--background-color);
   color: var(--font-color);
+
+  // * Backgound Image
+  background-image: var(--bg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  
   .person-list {
     display: flex;
     flex-wrap: wrap;
@@ -10,10 +17,10 @@
 }
 
 @media (max-width: 768px) {
-  .container{
+  .container {
     margin: 0;
   }
-  app-person-card{
+  app-person-card {
     padding: 0;
   }
 }
