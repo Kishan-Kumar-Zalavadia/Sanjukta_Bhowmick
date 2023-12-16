@@ -50,7 +50,7 @@ h2 {
 
 @media (max-width: 840px) {
   .project-card {
-    height: auto;
+    // height: auto;
     // width: calc(100vw - 100px);
 
     img {
@@ -78,7 +78,10 @@ h2 {
 
 @media (max-width: 579px) {
   .project-card {
-    width: 150px;
-    height: 200px;
+    width: 70vw;
+    height: auto;
+    img{
+      width: calc(40vw);
+    }
   }
 }
