@@ -8,7 +8,7 @@
   width: 200px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between; /* Content will stick to the bottom */
+  justify-content: space-around; /* Content will stick to the bottom */
 }
 
 h2 {
@@ -20,7 +20,12 @@ h2 {
   padding: 10px;
   align-items: center;
   justify-content: center;
-;text-align: center;
+  text-align: center;
+}
+
+.person-details {
+  color: var(--font-color);
+  padding-bottom: 5px;
 }
 
 .image {
@@ -37,39 +42,44 @@ h2 {
 }
 
 @media (max-width: 990px) {
-  .project-card{
+  .project-card {
     width: calc(100vw - 600px);
-   h2{
-    font-size: 18px;
-   } 
+    h2 {
+      font-size: 18px;
+    }
   }
 }
 
 @media (max-width: 840px) {
-  .project-card{
+  .project-card {
     height: auto;
     // width: calc(100vw - 100px);
 
-    img{
+    img {
       max-width: auto;
     }
 
-    .content{
-      h2{
+    .content {
+      h2 {
         font-size: 18px;
       }
     }
   }
-} 
+}
 
 @media (max-width: 750px) {
-  .project-card{
+  .project-card {
     width: 200px;
+  }
+  .person-details {
+    color: var(--font-color);
+    font-size: 15px;
+    padding-bottom: 2px;
   }
 }
 
 @media (max-width: 579px) {
-  .project-card{
+  .project-card {
     width: 150px;
     height: 200px;
   }
