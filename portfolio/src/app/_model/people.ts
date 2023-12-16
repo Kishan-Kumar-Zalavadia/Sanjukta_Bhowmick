@@ -1,6 +1,7 @@
 export interface People{
     id: number;
     name: string;
-    image: string;
+    details?: string;
+    image?: string;
     url?: string;
 }

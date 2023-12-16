@@ -1,10 +1,11 @@
 <div class="project-card glass-effect">
-  <div class="image">
+  <div class="image" *ngIf="person.image" >
     <img [src]="person.image" alt="Person Image" />
   </div>
   <div class="content">
     <h2>{{ person.name }}</h2>
-    <button *ngIf="person.url" class="button">
+    <p class="person-details">{{person.details}}</p>
+    <button  *ngIf="person.url" (click)="redirectToPersonDetails()" class="button">
       View Details
     </button>
   </div>
