@@ -3,7 +3,7 @@ import { Details } from '../_model/details';
 
 export const DETAILS: Details = {
   //* Title
-  profession_title: 'Research Associate Professor',
+  profession_title: 'Associate Professor',
 
   //* Work Location
   work_location:
