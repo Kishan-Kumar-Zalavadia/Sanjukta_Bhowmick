@@ -12,18 +12,27 @@ export class PublicationComponent implements OnInit {
   publication: Publication | undefined;
   publicationId: number | undefined;
 
+  publications: Publication[] | undefined;
+
   constructor(
     private route: ActivatedRoute,
     private dataService: DataService
-  ) {}
+  ) {
+  }
 
   ngOnInit(): void {
-    this.publicationId = +this.route.snapshot.paramMap.get('id')!;
-    this.publication = this.dataService.getPublicationById(this.publicationId);
-    if (this.publication === undefined) {
-      console.log('publicaton not found');
-    } else {
-      console.log(JSON.stringify(this.publication));
-    }
+    // this.publicationId = +this.route.snapshot.paramMap.get('id')!;
+    // this.publication = this.dataService.getPublicationById(this.publicationId);
+    // if (this.publication === undefined) {
+    //   console.log('publicaton not found');
+    // } else {
+    //   console.log(JSON.stringify(this.publication));
+    // }
+    this.getPublications();
+  }
+
+  getPublications(){
+    this.publications = this.dataService.getAllPublications();
+    console.log(JSON.stringify(this.publications));
   }
 }

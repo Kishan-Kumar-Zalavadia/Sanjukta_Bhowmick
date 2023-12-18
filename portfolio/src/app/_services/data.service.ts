@@ -40,9 +40,17 @@ export class DataService {
   //   return of(this.publications);
   // }
 
-  // Get a publication by ID
+  // ************************************************************************
+  //* Get a publication by ID
   getPublicationById(id: number): Publication | undefined {
     const publication = this.publications.find((p) => p.id === id);
     return publication;
+  }
+
+  // ************************************************************************
+  //* Get all publications
+  getAllPublications() {
+    console.log('Get all publications' + JSON.stringify(this.publications));
+    return this.publications;
   }
 }
