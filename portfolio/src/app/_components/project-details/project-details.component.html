@@ -11,7 +11,7 @@
       <ul>
         <li class="publication-list" *ngFor="let publication of publications">
           <div class="publication-list-card">
-            <a *ngIf="publication.pdf" [href]="publication.pdf" target="_blank"> {{ publication.title }} </a>
+            <a *ngIf="publication.url" [href]="publication.url" target="_blank"> {{ publication.title }} </a>
             <!-- <a *ngIf="publication.pdf" [href]="publication.pdf" target="_blank"><div class="button">PDF</div></a> -->
           </div>
         </li>

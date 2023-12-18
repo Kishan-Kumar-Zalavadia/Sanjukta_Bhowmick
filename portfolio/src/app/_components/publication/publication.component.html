@@ -4,7 +4,7 @@
     <ul>
       <li class="publication-list" *ngFor="let publication of publications">
         <div class="publication-list-card">
-          <a *ngIf="publication.pdf" [href]="publication.pdf" target="_blank">
+          <a *ngIf="publication.url" [href]="publication.url" target="_blank">
             {{ publication.title }}
           </a>
           <p class="year">{{publication.year}}</p>
