@@ -35,8 +35,4 @@ export class PublicationComponent implements OnInit {
     this.publications = this.dataService.getAllPublications();
     console.log(JSON.stringify(this.publications));
   }
-
-  navigateToGoogleScholar() {
-    window.open('https://scholar.google.com/citations?hl=en&user=MegF9mYAAAAJ&view_op=list_works&sortby=pubdate', '_blank');
-  }
 }
