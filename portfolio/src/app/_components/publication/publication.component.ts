@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Publication } from '../../_model/publication';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { DataService } from '../../_services/data.service';
 
 @Component({
@@ -16,9 +16,9 @@ export class PublicationComponent implements OnInit {
 
   constructor(
     private route: ActivatedRoute,
-    private dataService: DataService
-  ) {
-  }
+    private dataService: DataService,
+    private router: Router
+  ) {}
 
   ngOnInit(): void {
     // this.publicationId = +this.route.snapshot.paramMap.get('id')!;
@@ -31,8 +31,12 @@ export class PublicationComponent implements OnInit {
     this.getPublications();
   }
 
-  getPublications(){
+  getPublications() {
     this.publications = this.dataService.getAllPublications();
     console.log(JSON.stringify(this.publications));
+  }
+
+  navigateToGoogleScholar() {
+    window.open('https://scholar.google.com/citations?hl=en&user=MegF9mYAAAAJ&view_op=list_works&sortby=pubdate', '_blank');
   }
 }

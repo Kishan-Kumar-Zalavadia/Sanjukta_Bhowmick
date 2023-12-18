@@ -4,4 +4,5 @@ export interface Publication {
   year?: string;
   projectID?: number;
   url?: string;
+  googleScholar?: string;
 }

@@ -7,7 +7,11 @@
           <a *ngIf="publication.url" [href]="publication.url" target="_blank">
             {{ publication.title }}
           </a>
-          <p class="year">{{publication.year}}</p>
+          <p class="year">{{ publication.year }}</p>
+          <button class="button-link" (click)="navigateToGoogleScholar()">
+            <span>Google Scholar</span>
+            <i class="material-icons">keyboard_arrow_right</i>
+          </button>
           <!-- <a *ngIf="publication.pdf" [href]="publication.pdf" target="_blank"><div class="button">PDF</div></a> -->
         </div>
       </li>

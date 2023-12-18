@@ -3,25 +3,26 @@ import { Publication } from '../_model/publication';
 export const PUBLICATIONS: Publication[] = [
   {
     id: 1,
-    title: 'On Rich Clubs of Path-Based Centralities in Networks',
-    projectID: 1,
-    year: "2022",
-    url: 'https://arxiv.org/url/1808.02903.url',
+    title: 'EduHPC Lightning Talk Summary',
+    year: '2023',
+    url: 'https://dl.acm.org/doi/abs/10.1145/3624062.3625542',
+    googleScholar:
+      'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MegF9mYAAAAJ&sortby=pubdate&citation_for_view=MegF9mYAAAAJ:EkHepimYqZsC',
   },
   {
     id: 2,
     title:
       'GenPerm: A Unified Method for Detecting Non-Overlapping and Overlapping Communities',
     url: 'https://arxiv.org/url/1604.03454.url',
-    projectID: 1,
-    year: "2022",
+
+    year: '2022',
   },
   {
     id: 3,
     title: 'On the Permanence of Vertices in Network Communities',
     url: 'https://arxiv.org/url/1406.2426.url',
     projectID: 1,
-    year: "2022",
+    year: '2022',
   },
   {
     id: 4,
