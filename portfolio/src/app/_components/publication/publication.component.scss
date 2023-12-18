@@ -1,6 +1,11 @@
 .container {
-    margin: 10px;
+  // * Backgound Image
+  background-image: var(--bg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 
+  padding: 10px;
   .publications {
     .publication-title {
       font-size: 25px;
@@ -23,10 +28,14 @@
           font-weight: 200px;
 
           &:hover {
-            color: var(--main-color-hover);
+            color: var(--main-color);
             cursor: pointer;
-            transition: color 0.2s ease-in-out;
+            transition: color 0.15s ease-in-out;
           }
+        }
+
+        .year {
+          color: gray;
         }
       }
     }

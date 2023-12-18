@@ -5,6 +5,7 @@ export const PUBLICATIONS: Publication[] = [
     id: 1,
     title: 'On Rich Clubs of Path-Based Centralities in Networks',
     projectID: 1,
+    year: "2022",
     pdf: 'https://arxiv.org/pdf/1808.02903.pdf',
     authorIDs: [1, 2],
   },
@@ -14,6 +15,7 @@ export const PUBLICATIONS: Publication[] = [
       'GenPerm: A Unified Method for Detecting Non-Overlapping and Overlapping Communities',
     pdf: 'https://arxiv.org/pdf/1604.03454.pdf',
     projectID: 1,
+    year: "2022",
     authorIDs: [2, 3, 4],
   },
   {
@@ -21,6 +23,7 @@ export const PUBLICATIONS: Publication[] = [
     title: 'On the Permanence of Vertices in Network Communities',
     pdf: 'https://arxiv.org/pdf/1406.2426.pdf',
     projectID: 1,
+    year: "2022",
     authorIDs: [1],
   },
   {
