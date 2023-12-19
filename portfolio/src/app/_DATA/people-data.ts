@@ -16,7 +16,7 @@ export const PEOPLE: People[] = [
   },
   {
     id: 3,
-    name: 'Person 2',
+    name: 'Eshaan Singh',
     image: '../../assets/images/Eshaan.png',
     url: undefined,
     details:
