@@ -41,6 +41,7 @@ h2 {
 }
 
 .project-card:hover .person-details {
+  z-index: 1000;
   display: block;
   color: var(--font-color);
   font-size: 17px;
@@ -57,6 +58,11 @@ h2 {
     max-width: 180px;
     max-height: 200px;
   }
+}
+
+.button-link:hover  > *:not(:last-child){
+  color: var(--main-color-hover);
+  text-decoration: underline;
 }
 
 @media (max-width: 990px) {
