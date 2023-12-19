@@ -8,7 +8,6 @@ export const PUBLICATIONS: Publication[] = [
     url: 'https://dl.acm.org/doi/abs/10.1145/3624062.3625542',
     googleScholar:
       'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MegF9mYAAAAJ&sortby=pubdate&citation_for_view=MegF9mYAAAAJ:EkHepimYqZsC',
-    projectID: undefined,
   },
   {
     id: 2,
@@ -18,7 +17,6 @@ export const PUBLICATIONS: Publication[] = [
     url: 'https://ieeexplore.ieee.org/abstract/document/10306221',
     googleScholar:
       'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MegF9mYAAAAJ&sortby=pubdate&citation_for_view=MegF9mYAAAAJ:zLWjf1WUPmwC',
-    projectID: undefined,
   },
   {
     id: 3,
@@ -28,7 +26,6 @@ export const PUBLICATIONS: Publication[] = [
     url: 'https://dl.acm.org/doi/abs/10.1145/3610535',
     googleScholar:
       'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MegF9mYAAAAJ&sortby=pubdate&citation_for_view=MegF9mYAAAAJ:9Nmd_mFXekcC',
-    projectID: undefined,
   },
   {
     id: 4,
@@ -38,7 +35,6 @@ export const PUBLICATIONS: Publication[] = [
     url: 'https://dl.acm.org/doi/abs/10.1145/3605573.3605639',
     googleScholar:
       'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MegF9mYAAAAJ&sortby=pubdate&citation_for_view=MegF9mYAAAAJ:uc_IGeMz5qoC',
-    projectID: undefined,
   },
   {
     id: 5,
@@ -48,7 +44,6 @@ export const PUBLICATIONS: Publication[] = [
     url: 'https://www.computer.org/csdl/proceedings-article/ipdpsw/2023/119900z137/1PkVHV5nJaE',
     googleScholar:
       'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MegF9mYAAAAJ&sortby=pubdate&citation_for_view=MegF9mYAAAAJ:0KyAp5RtaNEC',
-    projectID: undefined,
   },
   {
     id: 6,
@@ -58,7 +53,6 @@ export const PUBLICATIONS: Publication[] = [
     url: 'https://journals.sagepub.com/doi/abs/10.1177/10943420231166610',
     googleScholar:
       'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MegF9mYAAAAJ&sortby=pubdate&citation_for_view=MegF9mYAAAAJ:VLnqNzywnoUC',
-    projectID: undefined,
   },
   {
     id: 7,
@@ -68,7 +62,6 @@ export const PUBLICATIONS: Publication[] = [
     url: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10481956/',
     googleScholar:
       'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MegF9mYAAAAJ&sortby=pubdate&citation_for_view=MegF9mYAAAAJ:XD-gHx7UXLsC',
-    projectID: undefined,
   },
   {
     id: 8,
@@ -77,7 +70,6 @@ export const PUBLICATIONS: Publication[] = [
     url: 'https://ieeexplore.ieee.org/abstract/document/10106335/',
     googleScholar:
       'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MegF9mYAAAAJ&sortby=pubdate&citation_for_view=MegF9mYAAAAJ:z_wVstp3MssC',
-    projectID: undefined,
   },
   {
     id: 9,
@@ -87,7 +79,6 @@ export const PUBLICATIONS: Publication[] = [
     url: 'https://www.sciencedirect.com/science/article/pii/S0169023X22000556',
     googleScholar:
       'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MegF9mYAAAAJ&sortby=pubdate&citation_for_view=MegF9mYAAAAJ:Fu2w8maKXqMC',
-    projectID: undefined,
   },
   {
     id: 10,
@@ -97,7 +88,6 @@ export const PUBLICATIONS: Publication[] = [
     url: 'https://ieeexplore.ieee.org/abstract/document/9835312/',
     googleScholar:
       'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MegF9mYAAAAJ&sortby=pubdate&citation_for_view=MegF9mYAAAAJ:fEOibwPWpKIC',
-    projectID: undefined,
   },
   {
     id: 11,
@@ -106,7 +96,6 @@ export const PUBLICATIONS: Publication[] = [
     url: 'https://ieeexplore.ieee.org/abstract/document/9835197/',
     googleScholar:
       'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MegF9mYAAAAJ&sortby=pubdate&citation_for_view=MegF9mYAAAAJ:7T2F9Uy0os0C',
-    projectID: undefined,
   },
   {
     id: 12,
@@ -116,7 +105,6 @@ export const PUBLICATIONS: Publication[] = [
     url: 'https://www.osti.gov/servlets/purl/2001824',
     googleScholar:
       'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MegF9mYAAAAJ&sortby=pubdate&citation_for_view=MegF9mYAAAAJ:ipzZ9siozwsC',
-    projectID: undefined,
   },
   {
     id: 13,
@@ -126,7 +114,6 @@ export const PUBLICATIONS: Publication[] = [
     url: 'https://sc21.supercomputing.org/proceedings/src_poster/poster_files/spostg112s2-file2.pdf',
     googleScholar:
       'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MegF9mYAAAAJ&sortby=pubdate&citation_for_view=MegF9mYAAAAJ:j8SEvjWlNXcC',
-    projectID: undefined,
   },
   {
     id: 14,
@@ -136,7 +123,6 @@ export const PUBLICATIONS: Publication[] = [
     url: 'https://dl.acm.org/doi/abs/10.1145/3487351.3488350',
     googleScholar:
       'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MegF9mYAAAAJ&sortby=pubdate&citation_for_view=MegF9mYAAAAJ:evX43VCCuoAC',
-    projectID: undefined,
   },
   {
     id: 15,
@@ -146,7 +132,6 @@ export const PUBLICATIONS: Publication[] = [
     url: 'https://www.sciencedirect.com/science/article/pii/S2665963821000634',
     googleScholar:
       'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MegF9mYAAAAJ&sortby=pubdate&citation_for_view=MegF9mYAAAAJ:tzM49s52ZIMC',
-    projectID: undefined,
   },
   {
     id: 16,
@@ -156,7 +141,6 @@ export const PUBLICATIONS: Publication[] = [
     url: 'https://www.sciencedirect.com/science/article/abs/pii/S1877750321001046',
     googleScholar:
       'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MegF9mYAAAAJ&sortby=pubdate&citation_for_view=MegF9mYAAAAJ:tKAzc9rXhukC',
-    projectID: undefined,
   },
   {
     id: 17,
@@ -166,7 +150,6 @@ export const PUBLICATIONS: Publication[] = [
     url: 'https://ieeexplore.ieee.org/abstract/document/9442368/',
     googleScholar:
       'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MegF9mYAAAAJ&sortby=pubdate&citation_for_view=MegF9mYAAAAJ:kzcrU_BdoSEC',
-    projectID: undefined,
   },
   {
     id: 18,
@@ -176,7 +159,6 @@ export const PUBLICATIONS: Publication[] = [
     url: 'https://ieeexplore.ieee.org/abstract/document/9435018',
     googleScholar:
       'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MegF9mYAAAAJ&sortby=pubdate&citation_for_view=MegF9mYAAAAJ:W5xh706n7nkC',
-    projectID: undefined,
   },
   {
     id: 19,
@@ -185,7 +167,6 @@ export const PUBLICATIONS: Publication[] = [
     url: 'https://www.scitepress.org/PublishedPapers/2021/106069/106069.pdf',
     googleScholar:
       'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MegF9mYAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=MegF9mYAAAAJ:_Re3VWB3Y0AC',
-    projectID: undefined,
   },
   {
     id: 20,
@@ -195,7 +176,6 @@ export const PUBLICATIONS: Publication[] = [
     url: 'https://link.springer.com/chapter/10.1007/978-3-030-62522-1_41',
     googleScholar:
       'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MegF9mYAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=MegF9mYAAAAJ:UHK10RUVsp4C',
-    projectID: undefined,
   },
   {
     id: 21,
@@ -205,7 +185,6 @@ export const PUBLICATIONS: Publication[] = [
     url: 'https://dl.acm.org/doi/abs/10.1145/3388440.3412465',
     googleScholar:
       'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MegF9mYAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=MegF9mYAAAAJ:JQOojiI6XY0C',
-    projectID: undefined,
   },
   {
     id: 22,
@@ -214,7 +193,6 @@ export const PUBLICATIONS: Publication[] = [
     url: 'https://www.osti.gov/servlets/purl/1782498',
     googleScholar:
       'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MegF9mYAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=MegF9mYAAAAJ:NJ774b8OgUMC',
-    projectID: undefined,
   },
   {
     id: 23,
@@ -224,7 +202,6 @@ export const PUBLICATIONS: Publication[] = [
     url: 'https://arxiv.org/abs/2004.09625',
     googleScholar:
       'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MegF9mYAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=MegF9mYAAAAJ:N5tVd3kTz84C',
-    projectID: undefined,
   },
   {
     id: 24,
@@ -234,7 +211,6 @@ export const PUBLICATIONS: Publication[] = [
     url: 'https://link.springer.com/chapter/10.1007/978-3-030-50371-0_50',
     googleScholar:
       'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MegF9mYAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=MegF9mYAAAAJ:PR6Y55bgFSsC',
-    projectID: undefined,
   },
   {
     id: 25,
@@ -244,7 +220,123 @@ export const PUBLICATIONS: Publication[] = [
     url: 'https://link.springer.com/chapter/10.1007/978-3-030-50371-0_48',
     googleScholar:
       'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MegF9mYAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=MegF9mYAAAAJ:1yQoGdGgb4wC',
-    projectID: undefined,
+  },
+  {
+    id: 26,
+    title:
+      'A shared-memory parallel algorithm for updating single-source shortest paths in large dynamic networks',
+    year: '2018',
+    url: 'https://ieeexplore.ieee.org/abstract/document/8638105/',
+    googleScholar:
+      'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MegF9mYAAAAJ&citation_for_view=MegF9mYAAAAJ:8AbLer7MMksC',
+  },
+  {
+    id: 27,
+    title: 'Fast community detection for dynamic complex networks',
+    year: '2011',
+    url: 'https://link.springer.com/chapter/10.1007/978-3-642-25501-4_20',
+    googleScholar:
+      'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MegF9mYAAAAJ&citation_for_view=MegF9mYAAAAJ:Y0pCki6q_DkC',
+  },
+  {
+    id: 28,
+    title:
+      'An Efficient Framework for Computing Structure-And Semantics-Preserving Community in a Heterogeneous Multilayer Network',
+    url: 'https://arxiv.org/abs/1910.01737',
+    googleScholar:
+      'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MegF9mYAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=MegF9mYAAAAJ:tkaPQYYpVKoC',
+  },
+  {
+    id: 29,
+    title:
+      'Efficient community re-creation in multilayer networks using boolean operations',
+    url: 'https://www.sciencedirect.com/science/article/pii/S1877050917308748',
+    googleScholar:
+      'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MegF9mYAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=MegF9mYAAAAJ:fPk4N6BV_jEC',
+  },
+  {
+    id: 30,
+    title:
+      'Holistic analysis of multi-source, multi-feature data: Modeling and computation challenges',
+    url: 'https://link.springer.com/chapter/10.1007/978-3-319-72413-3_4',
+    googleScholar:
+      'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MegF9mYAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=MegF9mYAAAAJ:yD5IFk8b50cC',
+  },
+  {
+    id: 32,
+    title: 'On Rich Clubs of Path-Based Centralities in Networks',
+    url: 'https://dl.acm.org/doi/abs/10.1145/3269206.3271763',
+    googleScholar:
+      'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MegF9mYAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=MegF9mYAAAAJ:b0M2c_1WBrUC',
+  },
+  {
+    id: 33,
+    title:
+      'GenPerm: A Unified Method for Detecting Non-Overlapping and Overlapping Communities',
+    url: 'https://ieeexplore.ieee.org/abstract/document/7452622/',
+    googleScholar:
+      'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MegF9mYAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=MegF9mYAAAAJ:RGFaLdJalmkC',
+  },
+  {
+    id: 34,
+    title: 'On the Permanence of Vertices in Network Communities',
+    url: 'https://dl.acm.org/doi/abs/10.1145/2623330.2623707',
+    googleScholar:
+      'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MegF9mYAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=MegF9mYAAAAJ:_Qo2XoVZTnwC',
+  },
+  {
+    id: 35,
+    title: 'Constant Communities in Complex Networks',
+    url: 'https://www.nature.com/articles/srep01825',
+    googleScholar:
+      'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MegF9mYAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=MegF9mYAAAAJ:aqlVkmm33-oC',
+  },
+  {
+    id: 36,
+    title: "Analyzing Shakespeare's Plays in a Network Perspective",
+    url: 'https://search.proquest.com/openview/24fd8c46917f9f08e2135cba48634542/1?pq-origsite=gscholar&cbl=18750',
+    googleScholar:
+      'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MegF9mYAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=MegF9mYAAAAJ:ns9cj8rnVeAC',
+  },
+  {
+    id: 37,
+    title:
+      'Identifying Important Classes of Large Software Systems through K-core Decomposition',
+    url: 'https://www.worldscientific.com/doi/abs/10.1142/S0219525915500046',
+    googleScholar:
+      'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MegF9mYAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=MegF9mYAAAAJ:GnPB-g6toBAC',
+  },
+  {
+    id: 38,
+    title:
+      'A Parallel Graph Sampling Algorithm for Analyzing Gene Correlation Networks',
+    url: 'https://www.sciencedirect.com/science/article/pii/S1877050911000731',
+    googleScholar:
+      'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MegF9mYAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=MegF9mYAAAAJ:qjMakFHDy7sC',
+  },
+  {
+    id: 39,
+    title:
+      'A New Augmentation Based Algorithm for Extracting Maximal Chordal Subgraphs',
+    url: 'https://www.sciencedirect.com/science/article/pii/S074373151400197X',
+    googleScholar:
+      'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MegF9mYAAAAJ&pagesize=80&sortby=pubdate&citation_for_view=MegF9mYAAAAJ:isC4tDSrTZIC',
+  },
+  {
+    id: 40,
+    title:
+      'A Structure-Preserving Hybrid-Chordal Filter for Sampling in Correlation Networks',
+    url: 'https://ieeexplore.ieee.org/abstract/document/6641422/',
+    googleScholar:
+      'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MegF9mYAAAAJ&pagesize=80&sortby=pubdate&citation_for_view=MegF9mYAAAAJ:mB3voiENLucC',
+  },
+  {
+    id: 41,
+    title:
+      'A Novel Multithreaded Algorithm for Extracting Maximal Chordal Subgraphs',
+    url: 'https://ieeexplore.ieee.org/abstract/document/6337567/',
+    googleScholar:
+      'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MegF9mYAAAAJ&pagesize=80&sortby=pubdate&citation_for_view=MegF9mYAAAAJ:qxL8FJ1GzNcC',
   },
 ];
 
