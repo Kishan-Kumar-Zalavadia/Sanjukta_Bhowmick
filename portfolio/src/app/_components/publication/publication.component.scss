@@ -41,6 +41,10 @@
         .scholar{
             color: var(--main-color);
             font-size: 15px;
+
+            &:hover{
+              color: var(--main-color-hover);
+            }
         }
       }
     }
