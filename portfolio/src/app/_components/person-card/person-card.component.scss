@@ -47,7 +47,7 @@ h2 {
   flex: 1; /* Takes up the remaining space */
   display: flex;
   align-items: center; /* Center image vertically */
-  justify-content: center; /* Center image horizontally */
+  justify-content: space-around; /* Center image horizontally */
   overflow: hidden; /* Hide any overflowing content */
 
   img {
