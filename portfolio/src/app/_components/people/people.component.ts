@@ -8,4 +8,7 @@ import { PEOPLE } from '../../_DATA/people-data';
 })
 export class PeopleComponent {
   people = PEOPLE;
+  constructor() {
+    this.people.sort((a, b) => a.id - b.id);
+  }
 }
