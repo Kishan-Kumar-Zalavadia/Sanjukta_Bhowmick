@@ -7,6 +7,15 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around; /* Content will stick to the bottom */
+
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+
+.project-card:hover > *:not(:last-child){
+  filter: blur(30px); 
 }
 
 h2 {
@@ -19,11 +28,19 @@ h2 {
   align-items: center;
   justify-content: center;
   text-align: center;
+  position: relative;
+  z-index: 1;
 }
 
 .person-details {
+  display: none;
+  position: absolute;
+}
+
+.project-card:hover .person-details {
+  display: block;
   color: var(--font-color);
-  padding-bottom: 5px;
+  font-size: 17px;
 }
 
 .image {
