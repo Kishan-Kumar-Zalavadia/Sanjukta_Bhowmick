@@ -242,101 +242,114 @@ export const PUBLICATIONS: Publication[] = [
     id: 28,
     title:
       'An Efficient Framework for Computing Structure-And Semantics-Preserving Community in a Heterogeneous Multilayer Network',
+    year: '2019',
     url: 'https://arxiv.org/abs/1910.01737',
     googleScholar:
       'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MegF9mYAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=MegF9mYAAAAJ:tkaPQYYpVKoC',
   },
+
   {
     id: 29,
+    title: 'On Rich Clubs of Path-Based Centralities in Networks',
+    year: '2018',
+    url: 'https://dl.acm.org/doi/abs/10.1145/3269206.3271763',
+    googleScholar:
+      'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MegF9mYAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=MegF9mYAAAAJ:b0M2c_1WBrUC',
+  },
+  {
+    id: 30,
     title:
       'Efficient community re-creation in multilayer networks using boolean operations',
+    year: '2017',
     url: 'https://www.sciencedirect.com/science/article/pii/S1877050917308748',
     googleScholar:
       'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MegF9mYAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=MegF9mYAAAAJ:fPk4N6BV_jEC',
   },
   {
-    id: 30,
+    id: 31,
     title:
       'Holistic analysis of multi-source, multi-feature data: Modeling and computation challenges',
+    year: '2017',
     url: 'https://link.springer.com/chapter/10.1007/978-3-319-72413-3_4',
     googleScholar:
       'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MegF9mYAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=MegF9mYAAAAJ:yD5IFk8b50cC',
   },
   {
     id: 32,
-    title: 'On Rich Clubs of Path-Based Centralities in Networks',
-    url: 'https://dl.acm.org/doi/abs/10.1145/3269206.3271763',
-    googleScholar:
-      'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MegF9mYAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=MegF9mYAAAAJ:b0M2c_1WBrUC',
-  },
-  {
-    id: 33,
     title:
       'GenPerm: A Unified Method for Detecting Non-Overlapping and Overlapping Communities',
+    year: '2016',
     url: 'https://ieeexplore.ieee.org/abstract/document/7452622/',
     googleScholar:
       'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MegF9mYAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=MegF9mYAAAAJ:RGFaLdJalmkC',
   },
   {
+    id: 33,
+    title:
+      'A New Augmentation Based Algorithm for Extracting Maximal Chordal Subgraphs',
+    year: '2015',
+    url: 'https://www.sciencedirect.com/science/article/pii/S074373151400197X',
+    googleScholar:
+      'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MegF9mYAAAAJ&pagesize=80&sortby=pubdate&citation_for_view=MegF9mYAAAAJ:isC4tDSrTZIC',
+  },
+  {
     id: 34,
     title: 'On the Permanence of Vertices in Network Communities',
+    year: '2014',
     url: 'https://dl.acm.org/doi/abs/10.1145/2623330.2623707',
     googleScholar:
       'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MegF9mYAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=MegF9mYAAAAJ:_Qo2XoVZTnwC',
   },
   {
     id: 35,
-    title: 'Constant Communities in Complex Networks',
-    url: 'https://www.nature.com/articles/srep01825',
-    googleScholar:
-      'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MegF9mYAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=MegF9mYAAAAJ:aqlVkmm33-oC',
-  },
-  {
-    id: 36,
     title: "Analyzing Shakespeare's Plays in a Network Perspective",
+    year: '2014',
     url: 'https://search.proquest.com/openview/24fd8c46917f9f08e2135cba48634542/1?pq-origsite=gscholar&cbl=18750',
     googleScholar:
       'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MegF9mYAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=MegF9mYAAAAJ:ns9cj8rnVeAC',
   },
   {
-    id: 37,
+    id: 36,
     title:
       'Identifying Important Classes of Large Software Systems through K-core Decomposition',
+    year: '2014',
     url: 'https://www.worldscientific.com/doi/abs/10.1142/S0219525915500046',
     googleScholar:
       'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MegF9mYAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=MegF9mYAAAAJ:GnPB-g6toBAC',
   },
   {
+    id: 37,
+    title: 'Constant Communities in Complex Networks',
+    year: '2013',
+    url: 'https://www.nature.com/articles/srep01825',
+    googleScholar:
+      'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MegF9mYAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=MegF9mYAAAAJ:aqlVkmm33-oC',
+  },
+  {
     id: 38,
     title:
-      'A Parallel Graph Sampling Algorithm for Analyzing Gene Correlation Networks',
-    url: 'https://www.sciencedirect.com/science/article/pii/S1877050911000731',
-    googleScholar:
-      'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MegF9mYAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=MegF9mYAAAAJ:qjMakFHDy7sC',
-  },
-  {
-    id: 39,
-    title:
-      'A New Augmentation Based Algorithm for Extracting Maximal Chordal Subgraphs',
-    url: 'https://www.sciencedirect.com/science/article/pii/S074373151400197X',
-    googleScholar:
-      'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MegF9mYAAAAJ&pagesize=80&sortby=pubdate&citation_for_view=MegF9mYAAAAJ:isC4tDSrTZIC',
-  },
-  {
-    id: 40,
-    title:
       'A Structure-Preserving Hybrid-Chordal Filter for Sampling in Correlation Networks',
+    year: '2013',
     url: 'https://ieeexplore.ieee.org/abstract/document/6641422/',
     googleScholar:
       'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MegF9mYAAAAJ&pagesize=80&sortby=pubdate&citation_for_view=MegF9mYAAAAJ:mB3voiENLucC',
   },
   {
-    id: 41,
+    id: 39,
     title:
       'A Novel Multithreaded Algorithm for Extracting Maximal Chordal Subgraphs',
+    year: '2012',
     url: 'https://ieeexplore.ieee.org/abstract/document/6337567/',
     googleScholar:
       'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MegF9mYAAAAJ&pagesize=80&sortby=pubdate&citation_for_view=MegF9mYAAAAJ:qxL8FJ1GzNcC',
   },
+  {
+    id: 40,
+    title:
+      'A Parallel Graph Sampling Algorithm for Analyzing Gene Correlation Networks',
+    year: '2011',
+    url: 'https://www.sciencedirect.com/science/article/pii/S1877050911000731',
+    googleScholar:
+      'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MegF9mYAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=MegF9mYAAAAJ:qjMakFHDy7sC',
+  },
 ];
-

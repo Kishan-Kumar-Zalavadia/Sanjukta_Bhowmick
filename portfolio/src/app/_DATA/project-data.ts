@@ -23,7 +23,7 @@ export const PROJECTS: Project[] = [
     name: 'Multilayer Network Analysis',
     description:
       'Multilayer networks model systems that are related via multiple features and/or are formed of multiple types of entities. We are developing a decoupling based method for efficiently analyzing multilayer networks. Using decoupling component networks can be analyzed independently and then the analysis results can be combined to produce the final results. This work is in collaboration with Dr. Sharma Chakravarthy.',
-    publicationIDs: [28, 29, 30],
+    publicationIDs: [28, 30, 31],
   },
   {
     id: 4,
@@ -32,7 +32,7 @@ export const PROJECTS: Project[] = [
     date: '2001-01-01',
     description:
       'Real world data is inherently noisy. This noise is manifested in network models in the form of additional or missing edges. In this project we study how slight changes to the network affect its properties, and explore the structure of subgraphs that are stable under noise. This work is in collaboration with Dr. Animesh Mukherjee.',
-    publicationIDs: [32, 33, 34, 35],
+    publicationIDs: [29, 32, 34, 37],
   },
   {
     id: 5,
@@ -40,7 +40,7 @@ export const PROJECTS: Project[] = [
     name: 'Applications of Network Science',
     description:
       'Networks model the complex interactions between entities in many diverse disciplines. The properties of the networks provide insight to characteristics of the underlying complex system. We have used complex networks in many different areas including software engineering with Dr. Harvey Siy, bioinformatics with Dr. Hesham Ali and Dr. Kate Cooper, epidemiology with Dr. Armin Mikler , and narrative networks to study interactions between characters in plays.',
-    publicationIDs: [36, 37, 38],
+    publicationIDs: [35, 36, 40],
   },
   {
     id: 6,
@@ -48,6 +48,6 @@ export const PROJECTS: Project[] = [
     name: 'Perfect Graphs for Network Analysis',
     description:
       'A perfect graphs is a graph in which the chromatic number of every induced subgraph equals the size of the largest clique of that subgraph. Perfect graphs have special properties in that several NP-complete problems can be solved in polynomial time on them. Many real-world networks are also nearly perfect, such as bipartite graphs and chordal (triangulated graphs). Our goal is to leverage properties of perfect graphs to obtain faster/ more accurate network analysis results.',
-    publicationIDs: [39, 40, 41],
+    publicationIDs: [33, 38, 39],
   },
 ];
