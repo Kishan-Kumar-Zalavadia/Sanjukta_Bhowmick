@@ -31,4 +31,10 @@ export const PEOPLE: People[] = [
     details:
       'I am a Ph.D. student at the Department of Computer Science and Engineering at the University of North Texas. My research focuses on developing techniques for analyzing multi-featured datasets. I have worked on algorithms for sampling large networks, perturbing contact networks to reduce the spread of infection, generating layers for multilayer networks, and analyzing data in a homogenous multilayer network. ',
   },
+  {
+    id: 5,
+    name: "Preetham",
+    url: undefined,
+    details: "My research focuses on hypergraph analysis, specifically measuring centralities within hypergraphs to understand complex relationships and structures. Additionally, I collaborate with the metallurgy department to employ hypergraphs and networks for the detection of stacking fault energy in alloys, contributing to materials science and network-driven insights in metallurgical research."
+  }
 ];
