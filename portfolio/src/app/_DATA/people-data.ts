@@ -33,9 +33,18 @@ export const PEOPLE: People[] = [
   },
   {
     id: 5,
-    name: "Preetham",
+    name: 'Preetham',
     image: '../../assets/images/preetham.jpeg',
     url: undefined,
-    details: "My research focuses on hypergraph analysis, specifically measuring centralities within hypergraphs to understand complex relationships and structures. Additionally, I collaborate with the metallurgy department to employ hypergraphs and networks for the detection of stacking fault energy in alloys, contributing to materials science and network-driven insights in metallurgical research."
-  }
+    details:
+      'My research focuses on hypergraph analysis, specifically measuring centralities within hypergraphs to understand complex relationships and structures. Additionally, I collaborate with the metallurgy department to employ hypergraphs and networks for the detection of stacking fault energy in alloys, contributing to materials science and network-driven insights in metallurgical research.',
+  },
+  {
+    id: 6,
+    name: 'Aparna Sindhu',
+    image: '../../assets/images/Aparna.jpg',
+    url: undefined,
+    details:
+      "I am currently pursuing my master's degree in computer science major. I am currently working on the project in the specialization of Algorithms and Graph Theory. The project main focus is on the Graph Data Anonymization and De- anonymization.",
+  },
 ];
